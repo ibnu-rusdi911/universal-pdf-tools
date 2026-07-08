@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal PDF Tools</title>
+  </head>
+  <body class="bg-slate-900 min-h-screen text-slate-200">
+    <div id="app"></div>
+    
+    <!-- Script Utama Vite -->
+    <script type="module" src="/src/main.js"></script>
+    
+    <!-- Dependencies (Library) -->
+    <script src="/pdf.min.js"></script>
+    <script src="/lucide.min.js"></script>
+    
+    <!-- Script Inisialisasi (Eksternal agar aman dari CSP) -->
+    <script type="module" src="/src/init.js"></script>
+  </body>
+</html>

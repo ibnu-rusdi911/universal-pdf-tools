@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Universal PDF Tools",
+  "description": "Professional grade, 100% Client-side PDF tools. Privacy first.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Universal PDF Tools"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

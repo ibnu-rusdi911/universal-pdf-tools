@@ -43,6 +43,6 @@ Unlike traditional online PDF converters that upload your confidential documents
 
 ### 1. Clone & Install
 ```bash
-git clone [https://github.com/yourusername/universal-pdf-tools.git](https://github.com/yourusername/universal-pdf-tools.git)
+git clone [https://github.com/ibnu-rusdi911/universal-pdf-tools.git](https://github.com/ibnu-rusdi911/universal-pdf-tools.git)
 cd universal-pdf-tools
 npm install

@@ -46,3 +46,26 @@ Unlike traditional online PDF converters that upload your confidential documents
 git clone [https://github.com/ibnu-rusdi911/universal-pdf-tools.git](https://github.com/ibnu-rusdi911/universal-pdf-tools.git)
 cd universal-pdf-tools
 npm install
+
+## 🧩 Manual Installation (Without Chrome Web Store)
+
+Since this extension prioritizes your local privacy and operates 100% offline, you can easily install it manually in less than a minute:
+
+1. **Get the Build:** Download the compiled `dist` folder from the latest release (or build it yourself using `npm run build`).
+2. **Open Extensions Page:** Open Google Chrome and type `chrome://extensions/` in your address bar, then hit Enter.
+3. **Enable Developer Mode:** Turn on the **"Developer mode"** toggle switch located in the top right corner of the page.
+4. **Load the Extension:** Click the **"Load unpacked"** button that appears in the top left.
+5. **Select Folder:** Locate and select the `dist` folder on your computer.
+6. **Pin It:** Click the puzzle 🧩 icon in Chrome's top toolbar and pin the extension for quick access!
+
+---
+
+## ☕ Support the Developer
+
+This tool was built out of a personal need for a fast, private, and 100% free clipping experience. There are no ads, no paywalls, and absolutely no data tracking.
+
+Building and maintaining this project is a labor of love. If this extension has improved your workflow, saved you some time, or you simply want to say thanks, consider buying me a coffee! 
+
+It's entirely optional, but your support directly fuels my caffeine levels to keep maintaining this project and building more free tools for the community. 💛
+
+[![Ko-fi](https://img.shields.io/badge/Support_Me_on_Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/toiletmandev)
